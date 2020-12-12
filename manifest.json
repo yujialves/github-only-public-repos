@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Github Only Public Repos",
+  "description": "Chrome extension to show only public repositories by default.",
+  "author": "Yuji Alves",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
