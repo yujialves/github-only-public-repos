@@ -1,0 +1,2 @@
+# git-only-public-repo
+Chrome extension to show only public repositories by default.
